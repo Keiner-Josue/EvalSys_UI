@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas - CodeSchool</title>
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/modals.css">
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <nav>
+        <ul>
+            <li data-page="index">🏠 Inicio</li>
+            <li class="active" data-page="problemas">💻 Problemas</li>
+            <li data-page="grupos">👥 Grupos</li>
+            <li data-page="proyectos">📁 Proyectos</li>
+            <li data-page="comunidad">🌐 Comunidad</li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <div id="sidebar-container"></div>
+
+        <main class="content">
+            <h2>Problemas de Codificación</h2>
+            <button class="btn-create" onclick="openModal('createProblemModal')">+ Publicar Problema</button>
+            
+            <div class="filter-bar">
+                <input type="text" id="searchProblems" placeholder="Buscar problemas..." oninput="searchProblems()">
+                <select id="sortProblems" onchange="sortProblems()">
+                    <option value="recent">Más recientes</option>
+                    <option value="popular">Más populares</option>
+                    <option value="unanswered">Sin responder</option>
+                </select>
+            </div>
+
+            <div class="cards-grid" id="problems-list"></div>
+        </main>
+    </div>
+
+    <div id="footer-container"></div>
+    <div id="modals-container"></div>
+
+    <script src="../js/navigation.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/modals.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

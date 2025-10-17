@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupos - CodeSchool</title>
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/modals.css">
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <nav>
+        <ul>
+            <li data-page="index">🏠 Inicio</li>
+            <li data-page="problemas">💻 Problemas</li>
+            <li class="active" data-page="grupos">👥 Grupos</li>
+            <li data-page="proyectos">📁 Proyectos</li>
+            <li data-page="comunidad">🌐 Comunidad</li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <div id="sidebar-container"></div>
+
+        <main class="content">
+            <h2>Mis Grupos</h2>
+            <button class="btn-create" onclick="openModal('createGroupModal')">+ Crear Grupo</button>
+
+            <div class="filter-bar">
+                <input type="text" id="searchGroups" placeholder="Buscar grupos..." oninput="searchGroups()">
+                <select id="filterGroupType" onchange="filterGroups()">
+                    <option value="all">Todos los tipos</option>
+                    <option value="university">Universidad</option>
+                    <option value="highschool">Secundaria</option>
+                    <option value="mixed">Mixto</option>
+                </select>
+            </div>
+
+            <div id="groups-list"></div>
+        </main>
+    </div>
+
+    <div id="footer-container"></div>
+    <div id="modals-container"></div>
+
+    <script src="../js/navigation.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/modals.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

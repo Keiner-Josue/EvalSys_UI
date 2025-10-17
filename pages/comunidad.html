@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad - CodeSchool</title>
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/modals.css">
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <nav>
+        <ul>
+            <li data-page="index">🏠 Inicio</li>
+            <li data-page="problemas">💻 Problemas</li>
+            <li data-page="grupos">👥 Grupos</li>
+            <li data-page="proyectos">📁 Proyectos</li>
+            <li class="active" data-page="comunidad">🌐 Comunidad</li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <div id="sidebar-container"></div>
+
+        <main class="content">
+            <h2>Comunidad</h2>
+            
+            <div class="welcome-banner" style="text-align: left;">
+                <h2>Reglas de la Comunidad</h2>
+                <ul style="margin-top: 1rem; padding-left: 2rem;">
+                    <li>✅ Sé respetuoso con todos los miembros</li>
+                    <li>✅ Comparte conocimiento y ayuda a otros</li>
+                    <li>✅ Cita las fuentes cuando uses código de terceros</li>
+                    <li>❌ No compartas soluciones completas de tareas</li>
+                    <li>❌ No utilices lenguaje ofensivo</li>
+                </ul>
+            </div>
+
+            <h2>Miembros Destacados del Mes</h2>
+            <div class="cards-grid" id="featured-members"></div>
+
+            <h2>Estadísticas de la Comunidad</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>👥 Total Usuarios</h3>
+                    <p class="stat-number" id="totalUsers">1,234</p>
+                </div>
+                <div class="stat-card">
+                    <h3>💻 Problemas Resueltos</h3>
+                    <p class="stat-number" id="solvedProblems">5,678</p>
+                </div>
+                <div class="stat-card">
+                    <h3>👨‍👩‍👧‍👦 Grupos Activos</h3>
+                    <p class="stat-number" id="activeGroups">89</p>
+                </div>
+                <div class="stat-card">
+                    <h3>📁 Proyectos Completados</h3>
+                    <p class="stat-number" id="completedProjects">234</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="footer-container"></div>
+    <div id="modals-container"></div>
+
+    <script src="../js/navigation.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/modals.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
