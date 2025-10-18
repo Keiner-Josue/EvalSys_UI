@@ -1,0 +1,139 @@
+[
+    {
+        "id": 1,
+        "title": "Calculadora Básica en JavaScript",
+        "description": "Crea una calculadora que realice operaciones básicas usando HTML, CSS y JavaScript.",
+        "author": "Prof. García",
+        "userType": "Docente",
+        "language": "javascript",
+        "level": "beginner",
+        "answers": 8,
+        "rating": 4.5,
+        "tags": [
+            "javascript",
+            "html",
+            "css",
+            "básico"
+        ],
+        "createdAt": "2025-10-10T10:30:00Z"
+    },
+    {
+        "id": 2,
+        "title": "¿Cómo implementar un array bidimensional en C++?",
+        "description": "Necesito ayuda para entender la sintaxis y el manejo de memoria en arrays 2D. Tengo problemas con los punteros.",
+        "author": "Juan Pérez",
+        "userType": "Secundaria",
+        "language": "cpp",
+        "level": "intermediate",
+        "answers": 5,
+        "rating": 4.2,
+        "tags": [
+            "cpp",
+            "arrays",
+            "memoria"
+        ],
+        "createdAt": "2025-10-15T14:20:00Z"
+    },
+    {
+        "id": 3,
+        "title": "Error en bucle forEach de JavaScript",
+        "description": "Mi código no itera correctamente sobre el array. ¿Alguien puede revisar? El problema parece estar en el scope de las variables.",
+        "author": "María González",
+        "userType": "Universidad",
+        "language": "javascript",
+        "level": "beginner",
+        "answers": 3,
+        "rating": 4.0,
+        "tags": [
+            "javascript",
+            "arrays",
+            "loops"
+        ],
+        "createdAt": "2025-10-16T09:15:00Z"
+    },
+    {
+        "id": 4,
+        "title": "Sistema de Login con Python",
+        "description": "Implementa un sistema de autenticación básico con validación de usuarios usando Python y Flask.",
+        "author": "Prof. Martínez",
+        "userType": "Docente",
+        "language": "python",
+        "level": "intermediate",
+        "answers": 12,
+        "rating": 4.8,
+        "tags": [
+            "python",
+            "flask",
+            "autenticación"
+        ],
+        "createdAt": "2025-10-12T11:00:00Z"
+    },
+    {
+        "id": 5,
+        "title": "Optimización de consultas SQL",
+        "description": "¿Cuál es la mejor forma de hacer JOIN entre 3 tablas sin afectar el rendimiento?",
+        "author": "Prof. Ramírez",
+        "userType": "Docente",
+        "language": "sql",
+        "level": "advanced",
+        "answers": 8,
+        "rating": 4.7,
+        "tags": [
+            "sql",
+            "optimización",
+            "joins"
+        ],
+        "createdAt": "2025-10-13T16:45:00Z"
+    },
+    {
+        "id": 6,
+        "title": "API REST con Node.js",
+        "description": "Desarrolla una API RESTful para gestionar una lista de tareas usando Express.",
+        "author": "Prof. López",
+        "userType": "Docente",
+        "language": "javascript",
+        "level": "advanced",
+        "answers": 6,
+        "rating": 4.6,
+        "tags": [
+            "nodejs",
+            "express",
+            "rest-api"
+        ],
+        "createdAt": "2025-10-14T13:30:00Z"
+    },
+    {
+        "id": 7,
+        "title": "Recursión en Python - Fibonacci",
+        "description": "No entiendo cómo funciona la recursión. ¿Alguien puede explicar con el ejemplo de Fibonacci?",
+        "author": "Ana Torres",
+        "userType": "Secundaria",
+        "language": "python",
+        "level": "intermediate",
+        "answers": 10,
+        "rating": 4.4,
+        "tags": [
+            "python",
+            "recursión",
+            "algoritmos"
+        ],
+        "createdAt": "2025-10-15T10:00:00Z"
+    },
+    {
+        "id": 8,
+        "title": "Validación de formularios con JavaScript",
+        "description": "¿Cómo puedo validar un formulario HTML usando JavaScript puro sin librerías?",
+        "author": "Carlos Méndez",
+        "userType": "Universidad",
+        "language": "javascript",
+        "level": "beginner",
+        "answers": 0,
+        "rating": 0,
+        "tags": [
+            "javascript",
+            "formularios",
+            "validación"
+        ],
+        "createdAt": "2025-10-17T08:30:00Z"
+    }
+]

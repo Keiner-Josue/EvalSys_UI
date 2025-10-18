@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Juan Pérez",
+        "type": "student-high",
+        "school": "Colegio Nacional",
+        "code": "20240001",
+        "email": "juan.perez@estudiante.com",
+        "grade": "11",
+        "reputation": 85
+    },
+    {
+        "id": 2,
+        "name": "María González",
+        "type": "student-uni",
+        "school": "Universidad Nacional",
+        "code": "20230045",
+        "email": "maria.gonzalez@uni.edu",
+        "career": "Ingeniería de Sistemas",
+        "reputation": 142
+    },
+    {
+        "id": 3,
+        "name": "Prof. García",
+        "type": "teacher",
+        "school": "Colegio San José",
+        "email": "garcia@colegio.edu",
+        "subject": "Programación",
+        "reputation": 256
+    },
+    {
+        "id": 4,
+        "name": "Carlos Méndez",
+        "type": "student-uni",
+        "school": "Universidad de Los Andes",
+        "code": "20220189",
+        "email": "carlos.mendez@uniandes.edu",
+        "career": "Ciencias de la Computación",
+        "reputation": 198
+    },
+    {
+        "id": 5,
+        "name": "Ana Torres",
+        "type": "student-high",
+        "school": "Liceo Moderno",
+        "code": "20240067",
+        "email": "ana.torres@estudiante.com",
+        "grade": "10",
+        "reputation": 67
+    }
+]

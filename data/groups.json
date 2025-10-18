@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Programadores Python Avanzado",
+        "type": "university",
+        "description": "Grupo para estudiantes universitarios que quieren profundizar en Python y sus frameworks como Django y Flask.",
+        "language": "python",
+        "members": 45,
+        "projects": 12,
+        "creator": "Carlos Méndez",
+        "createdAt": "2025-09-01T10:00:00Z"
+    },
+    {
+        "id": 2,
+        "name": "Web Dev Básico - Secundaria",
+        "type": "highschool",
+        "description": "Aprende HTML, CSS y JavaScript desde cero con otros estudiantes de secundaria.",
+        "language": "javascript",
+        "members": 28,
+        "projects": 8,
+        "creator": "Prof. García",
+        "createdAt": "2025-09-05T14:30:00Z"
+    },
+    {
+        "id": 3,
+        "name": "Mentores y Aprendices de Java",
+        "type": "mixed",
+        "description": "Estudiantes universitarios y de secundaria trabajando juntos en proyectos de Java.",
+        "language": "java",
+        "members": 62,
+        "projects": 15,
+        "creator": "Prof. Martínez",
+        "createdAt": "2025-09-10T09:00:00Z"
+    },
+    {
+        "id": 4,
+        "name": "Desarrolladores Full Stack",
+        "type": "university",
+        "description": "Para universitarios interesados en desarrollo web completo (frontend y backend).",
+        "language": "javascript",
+        "members": 38,
+        "projects": 10,
+        "creator": "María González",
+        "createdAt": "2025-09-15T11:20:00Z"
+    },
+    {
+        "id": 5,
+        "name": "Competencias de Algoritmos",
+        "type": "mixed",
+        "description": "Grupo para practicar algoritmos y estructuras de datos. Todos los niveles bienvenidos.",
+        "language": "cpp",
+        "members": 52,
+        "projects": 20,
+        "creator": "Prof. López",
+        "createdAt": "2025-09-20T16:00:00Z"
+    },
+    {
+        "id": 6,
+        "name": "Introducción a la Programación",
+        "type": "highschool",
+        "description": "Para estudiantes de secundaria que están comenzando en el mundo de la programación.",
+        "language": "python",
+        "members": 34,
+        "projects": 6,
+        "creator": "Prof. Ramírez",
+        "createdAt": "2025-09-25T13:45:00Z"
+    },
+    {
+        "id": 7,
+        "name": "Desarrollo de Videojuegos",
+        "type": "mixed",
+        "description": "Creación de videojuegos usando diferentes tecnologías. Unity, Godot, JavaScript.",
+        "language": "cpp",
+        "members": 41,
+        "projects": 9,
+        "creator": "Carlos Méndez",
+        "createdAt": "2025-10-01T10:30:00Z"
+    },
+    {
+        "id": 8,
+        "name": "Machine Learning Básico",
+        "type": "university",
+        "description": "Introducción al aprendizaje automático con Python, TensorFlow y scikit-learn.",
+        "language": "python",
+        "members": 29,
+        "projects": 7,
+        "creator": "Prof. López",
+        "createdAt": "2025-10-05T15:00:00Z"
+    }
+]

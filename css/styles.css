@@ -17,8 +17,9 @@ nav {
     background: #f8f9fa;
     border-bottom: 1px solid #e0e0e0;
     position: sticky;
-    top: 70px;
-    z-index: 999;
+    top: 69px;
+    z-index: 1000;
+    margin-top: -1px;
 }
 
 nav ul {
@@ -167,5 +168,13 @@ nav ul li:hover, nav ul li.active {
     
     .filter-bar {
         flex-direction: column;
+    }
+    
+    .welcome-banner h1 {
+        font-size: 2rem;
+    }
+    
+    .welcome-banner {
+        padding: 2rem;
     }
 }

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problemas - CodeSchool</title>
-    
+
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/sidebar.css">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="../css/cards.css">
     <link rel="stylesheet" href="../css/modals.css">
 </head>
+
 <body>
     <div id="header-container"></div>
 
@@ -31,7 +33,7 @@
         <main class="content">
             <h2>Problemas de Codificación</h2>
             <button class="btn-create" onclick="openModal('createProblemModal')">+ Publicar Problema</button>
-            
+
             <div class="filter-bar">
                 <input type="text" id="searchProblems" placeholder="Buscar problemas..." oninput="searchProblems()">
                 <select id="sortProblems" onchange="sortProblems()">
@@ -53,4 +55,5 @@
     <script src="../js/modals.js"></script>
     <script src="../js/main.js"></script>
 </body>
+
 </html>
