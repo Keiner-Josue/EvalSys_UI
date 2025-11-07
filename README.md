@@ -179,3 +179,7 @@ Proyecto educativo de código abierto.
 ---
 
 **¡Disfruta construyendo tu comunidad de programación! 🚀**
+
+## Nombre del proyecto.
+-- Plataforma interactiva basada en inteligencia artificial para la gestión y socialización de información académica orientada a estudiantes, 
+    en el marco de talleres y procesos de evaluación en el área de programación. 
